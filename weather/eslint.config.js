@@ -23,6 +23,17 @@ export default [
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
     },
+  },
+    {
+      "plugins": [
+          "react"
+      ],
+      "rules": {
+          "react/jsx-uses-vars": "error",
+          "react/jsx-uses-react": "error"
+      }
+  },
+  {
     rules: {
       ...js.configs.recommended.rules,
       ...react.configs.recommended.rules,
